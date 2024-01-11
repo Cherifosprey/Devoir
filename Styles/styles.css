@@ -279,10 +279,12 @@ input {
 
 @media screen and (max-widht: 900px) {
    
-    /* Global */
-    body{
-        width: 100%;
+    /* Images */
+   
+    body img{
+        width: 10px;
         text-align: auto;
+        margin-right: 10px;
     }
 
     /* MENU */
@@ -290,4 +292,43 @@ input {
     visibility:visible;
     }
     
+    /* Corps de la page */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        margin: 0;
+      padding: 0;
+    }
+  
+    /* Styles pour les sections */
+    section {
+        padding: 50px;
+        margin: 0;
+    }
+  
+    section h2 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+  
+    section li {
+        margin-bottom: 20px;
+    }
+  
+    section h3 {
+        margin-top: 0;
+    }
+  
+    section p {
+        margin: 0;
+    }
+  
+    /*Styles pour le formulaire de contact */
+    form {
+        margin: 0;
+        padding: 0;
+    }
+
 } 
