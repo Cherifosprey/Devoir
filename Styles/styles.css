@@ -1,0 +1,293 @@
+/* Couleur de fond */
+
+body {
+    background-color: rgb(250, 255, 233);
+
+}
+
+#Competences {
+    background-color: rgb(199, 198, 205);
+}
+
+button {
+    background-color: aqua;
+}
+
+
+
+/* Police Titre */
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 170%;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Police paragraghe */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+}
+
+#Coordonnees_utilisateur {
+    font-size: 20px;
+}
+
+#Pourquoi h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.Menu {
+    font-size: 20px;
+}
+
+
+
+/* Couleur  */
+
+h1 {
+    color: rgb(25, 173, 39);
+}
+
+h2 {
+    color: rgb(25, 173, 39);
+}
+
+h3 {
+    color: rgb(25, 173, 39);
+}
+
+#textefin {
+    color: red;
+}
+
+
+
+/* Images logo */
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+
+
+/* Objets Fontawesome */
+
+i {
+    word-spacing: 2px;
+}
+
+
+
+/* Images */
+
+img {
+    width: 400px;
+}
+
+
+
+/* Alignement texte */
+
+h1 {
+    text-align: center;
+}
+
+#Coordonnees_utilisateur {
+    text-align: left;
+}
+
+footer #acentrer {
+    text-align: center;
+}
+
+footer .Wmates{
+    text-align: center;
+}
+
+footer .motsdefin{
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction:row; 
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: -20px;
+    margin-left: -60px;  
+}
+
+header nav {
+    word-spacing: 50px;
+}
+
+header div {
+    font-size: large;
+    font-style: italic;
+    color: rgb(25, 173, 39);
+    float: right;
+    text-align: center;
+}
+
+.Menu {
+    padding-bottom: 70px;
+}
+
+#Introduction {
+    display: flex;
+    /* flex-direction:row */
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(155, 192, 234);
+}
+
+#Coordonnees_utilisateur {
+    padding-left: 30%;
+}
+
+#Noscoordonnees {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3 {
+    margin-left: 35%;
+}
+
+#Pourquoi {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+#Pourquoi img {
+    margin-right: 10px;
+}
+
+#Pourquoi h2 {
+    margin-left: 230px;
+}
+
+#textefin {
+    margin-left: 130px;
+    margin-right: 90px;
+    text-align: center;
+}
+
+#Competences h2 {
+    text-align: center;
+    padding-right: 30%;
+}
+
+#Apropos{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Alignement Menu */
+header li {
+    display: inline;
+    text-decoration: none;
+}
+
+.btn_menu i{
+    display: none;
+    visibility: hidden;
+    }
+
+
+#envoyer {
+    margin-left: 155px;
+}
+
+#Portfolio{
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+#Competences{
+    padding-bottom: 20px;
+}
+
+
+
+/* Liens */
+
+a{
+    color: rgb(25, 173, 39);
+    text-decoration: none;
+}
+
+#envoyer a{
+    color: black;
+}
+a:hover{
+    color: rgb(189, 194, 206);
+}
+
+
+
+/* Curseur */
+
+i{
+    cursor: pointer;
+}
+
+
+
+/* input */
+
+input {
+    width: 500px;
+    height: 25px;
+}
+
+
+
+
+/* Media screen */
+
+@media screen and (max-widht: 900px) {
+   
+    /* Global */
+    body{
+        width: 100%;
+        text-align: auto;
+    }
+
+    /* MENU */
+    .btn_menu {
+    visibility:visible;
+    }
+    
+} 
