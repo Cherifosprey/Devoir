@@ -89,7 +89,7 @@ footer img {
 header img {
     width: 200px;
     height: 200px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 
@@ -178,7 +178,7 @@ header div {
 }
 
 h3 {
-    margin-left: 35%;
+    padding-left: 28%;
 }
 
 #Pourquoi {
@@ -191,9 +191,6 @@ h3 {
     margin-right: 10px;
 }
 
-#Pourquoi h2 {
-    margin-left: 230px;
-}
 
 #textefin {
     margin-left: 130px;
@@ -202,8 +199,8 @@ h3 {
 }
 
 #Competences h2 {
-    text-align: center;
-    padding-right: 30%;
+    text-align: left;
+   
 }
 
 #Apropos{
@@ -212,26 +209,19 @@ h3 {
 }
 
 
+
 /* Alignement Menu */
 header li {
     display: inline;
     text-decoration: none;
 }
 
-.btn_menu i{
-    display: none;
-    visibility: hidden;
-    }
-
-
 #envoyer {
-    margin-left: 155px;
+    padding-left: 20%;
 }
 
 #Portfolio{
     margin-top: 10px;
-    margin-left: 300px;
-    margin-right: 300px;
     text-align: center;
 }
 
@@ -253,6 +243,11 @@ a{
 }
 a:hover{
     color: rgb(189, 194, 206);
+}
+
+#Introduction a{
+    color: blue;
+    text-decoration: underline;
 }
 
 
@@ -277,58 +272,79 @@ input {
 
 /* Media screen */
 
-@media screen and (max-widht: 900px) {
-   
-    /* Images */
-   
-    body img{
-        width: 10px;
-        text-align: auto;
-        margin-right: 10px;
-    }
+@media (max-width:900px) {
 
-    /* MENU */
-    .btn_menu {
-    visibility:visible;
+    /* Images */
+    #Portfolio img{
+         width: 200px;
+         height: 180px;
+     }
+
+    #Noscoordonnees img{
+        width: 190px;
     }
     
-    /* Corps de la page */
-    body {
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #333;
-        margin: 0;
-      padding: 0;
-    }
-  
-    /* Styles pour les sections */
-    section {
-        padding: 50px;
-        margin: 0;
-    }
-  
-    section h2 {
-        font-size: 24px;
-        margin-top: 0;
-    }
-  
-    section li {
-        margin-bottom: 20px;
-    }
-  
-    section h3 {
-        margin-top: 0;
-    }
-  
-    section p {
-        margin: 0;
-    }
-  
-    /*Styles pour le formulaire de contact */
-    form {
-        margin: 0;
-        padding: 0;
+    #Pourquoi img{
+        width: 400px;
+   } 
+
+
+   /* Police Titre */
+
+    h1 {
+        font-size: 150%;
     }
 
-} 
+    h3 {
+        font-size: x-large;
+    }
+
+
+    /* Police paragraghe */
+
+    #Pourquoi h2 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+
+    /* Images logo */
+
+    header img {
+        width: 170px;
+        height: 170px;
+        margin-left: 40px;
+    }
+
+
+    /* Alignement texte */
+
+    #Introduction {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Pourquoi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Competences h2 {
+        text-align: center;
+    }
+
+    input{
+        width: 80%;
+        height: 20px;
+    }
+
+    button {
+        width: 170px;
+        height: 25px;
+    }
+
+    #textefin {
+        padding-left: 5%;
+    }
+
+}  
